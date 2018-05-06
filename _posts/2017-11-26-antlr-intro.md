@@ -29,6 +29,7 @@ You can find the Git repo for this article at [https://github.com/mateiw/littleb
 BASIC comes in many variants. Since the goal here is just to play with ANTLR we'll just define our own very simple BASIC dialect. 
 
 An simple program could be like this:
+
 ```
 REM Greatest common divisor
 INPUT "A=" ain
@@ -44,6 +45,7 @@ END
 
 PRINT "GCD=" + a
 ```
+
 Although quite simple it should be enough to cover the basic (no pun intended) concepts.
 
 ### The grammar
